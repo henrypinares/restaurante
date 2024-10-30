@@ -1,0 +1,98 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 20px;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #2e2e2e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    color: #f4a261;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+form {
+    margin-bottom: 25px;
+}
+
+input[type="text"], textarea, input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #3b3b3b;
+    color: #fff;
+}
+
+input[type="submit"], button, .button {
+    background-color: #e76f51;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover, button:hover, .button:hover {
+    background-color: #d55a3a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background-color: #2e2e2e;
+}
+
+th, td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #444;
+}
+
+th {
+    background-color: #e76f51;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+tr:hover {
+    background-color: #3a3a3a;
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+}
+
+#formularioEdicion {
+    background-color: #343434;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #f4a261;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #e76f51;
+}
